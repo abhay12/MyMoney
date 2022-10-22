@@ -1,4 +1,4 @@
-package Utils;
+package Service.src.main.java.Utils;
 
 public class Constants {
 
@@ -23,6 +23,4 @@ public class Constants {
 
     public static final String ALLOCATE = "ALLOCATE";
     public static final String SIP = "SIP";
-
-
 }

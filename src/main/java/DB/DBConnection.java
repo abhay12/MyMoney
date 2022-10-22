@@ -1,12 +1,11 @@
-package DB;
+package Service.src.main.java.DB;
 
-import Utils.Constants;
+import Service.src.main.java.Utils.Constants;
 
 import java.util.*;
 
 public class DBConnection {
 
-    //    HashMap<String, Integer> sip = new HashMap<>();
     HashMap<String, Integer> database = new HashMap<>();
 
 

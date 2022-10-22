@@ -1,7 +1,7 @@
-package Service;
+package Service.src.main.java.Service;
 
-import DB.DBConnection;
-import Utils.Constants;
+import Service.src.main.java.DB.DBConnection;
+import Service.src.main.java.Utils.Constants;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Set;
 
 public class PortfolioService {
+
 
     public static void processRequest(String path) throws IOException {
         BufferedReader br = null;
